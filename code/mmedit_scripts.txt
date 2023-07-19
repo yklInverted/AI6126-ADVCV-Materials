@@ -1,0 +1,8 @@
+python tools/train.py configs/config.py --work-dir ../outputs --resume
+python tools/test.py configs/config.py work_dirs/outputs/iter_58000.pth
+
+python tools/train.py configs/config2.py --work-dir ../srresnet_max --resume
+python tools/test.py configs/config2.py work_dirs/srresnet_max/iter_50000.pth
+
+2108419
+ori:1517571
